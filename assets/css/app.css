@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --winter-doldrums: 231, 231, 216;
+  --dark-side: 30, 30, 29;
+}
+
+body {
+  color: rgb(var(--winter-doldrums));
+  background: rgb(var(--dark-side));
+}
